@@ -1,0 +1,45 @@
+header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.Navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    float: left;
+  }
+  
+ul a {
+    list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  .NavLST {
+    float: left;
+      font-family:  Arial, Calibri;
+  }
+  
+  body {
+      background-color: turquoise;
+  }
