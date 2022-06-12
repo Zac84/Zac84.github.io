@@ -30,7 +30,6 @@ ul a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    
   }
 
   li a:hover {
@@ -43,7 +42,7 @@ ul a {
   } 
   
   body {
-    background-image: url("../images/blueeee.jpg");
+    background-image: url("../images/Backgrounds/bacbgroud1.png ");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: top;
@@ -65,4 +64,18 @@ ul a {
    height:200px;
  position: relative;
    top: 9000px;
+}
+
+.h1c {
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  text-align: center;
 }
