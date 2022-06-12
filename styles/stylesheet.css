@@ -43,9 +43,12 @@ ul a {
   
   body {
     background-image: url("../images/Backgrounds/bacbgroud1.png ");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size:cover;
     background-attachment: top;
+    margin: 0;
+    height: 100%;
+    overflow: hidden
   }
 
   .bodytext {
@@ -103,9 +106,20 @@ div.ptech {
   color: black;
   width: 500px;
   margin-right:auto;
-  padding-left: 5%;
+  padding-left: 10%;
   font-size: 25px;
   /*border: 3px solid #73AD21;*/
+}
+
+div.pOP {
+  text-align: center;
+  top: 200px;
+  position: relative;
+  color: black;
+  width: 500px;
+  margin-right:auto;
+  padding-left: 10%;
+  font-size: 25px;
 }
 
 .EthicalA {
@@ -114,4 +128,24 @@ div.ptech {
   position: relative;
   right: 80px;
   bottom: 225px;
+}
+
+.TESLA {
+  display: block;
+  margin-left: auto;
+  position: relative;
+  right: 120px;
+  bottom: 525px;
+  width: 750px;
+}
+
+div.Prisk {
+  text-align: center;
+  top: 200px;
+  position: relative;
+  color: black;
+  width: 1000px;
+  margin-right:auto;
+  margin-left: auto;
+  font-size: 30px;
 }
