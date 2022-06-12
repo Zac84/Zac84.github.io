@@ -48,7 +48,6 @@ ul a {
     background-attachment: top;
     margin: 0;
     height: 100%;
-    overflow: hidden
   }
 
   .bodytext {
@@ -65,19 +64,6 @@ ul a {
     margin-top: 8px;
     margin-left: 10px;
   }
-
-  .first{
-    top: 250px;
-    width:70%;
-    height:300px;
-    position: relative;
-  }
-.second{
-   width:40%;
-   height:200px;
- position: relative;
-   top: 9000px;
-}
 
 .h1c {
   text-align: center;
@@ -172,6 +158,8 @@ div.Prisk {
 .pER {
   position: relative;
   top: 200px;
+  padding-left: 10px;
+  font-size: 25px;
   /*border: 3px solid #73AD21;*/
 
 }
@@ -183,6 +171,7 @@ table {
   font-size: 0.8rem;
   position:relative;
   top: 225px;
+  padding-left: 10px;
 }
 
 td, th {
@@ -222,4 +211,22 @@ address {
   .REFRENCESUL {
     display: table;
     margin: 0 auto;
+  }
+
+  .RUBRIC {
+    display: block;
+    margin-right: auto;
+    position: relative;
+    left: 80px;
+    top: 250px;
+    width: 750px;
+  }
+
+  .RUBRIC2 {
+    display: block;
+    margin-left: auto;
+    position: relative;
+    right: 120px;
+    bottom: 516.5px;
+    width: 750px;
   }
