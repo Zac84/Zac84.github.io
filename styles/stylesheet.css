@@ -43,9 +43,13 @@ ul a {
   
   body {
     background-image: url("../images/Backgrounds/bacbgroud1.png ");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
     background-attachment: top;
+  }
+
+  .bodytext {
+    color: black;
   }
 
   .logo {
