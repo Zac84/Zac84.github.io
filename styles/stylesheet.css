@@ -43,13 +43,18 @@ ul a {
   
   body {
     background-image: url("../images/Backgrounds/bacbgroud1.png ");
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: top;
   }
 
   .bodytext {
+    top: 250px;
+    width:70%;
+    height:300px;
+    position: absolute;
     color: black;
+    text-align: center;
   }
 
   .logo {
@@ -59,10 +64,11 @@ ul a {
   }
 
   .first{
+    top: 250px;
     width:70%;
     height:300px;
-    position:absolute;
-}
+    position: relative;
+  }
 .second{
    width:40%;
    height:200px;
@@ -72,6 +78,7 @@ ul a {
 
 .h1c {
   text-align: center;
+  font-family: 'Mulish', sans-serif;
 }
 
 .footer {
@@ -82,4 +89,29 @@ ul a {
   background-color: transparent;
   color: white;
   text-align: center;
+}
+
+.TECHH2 {
+  font-size: xx-large;
+  font-family: 'Mulish', sans-serif;
+}
+
+div.ptech {
+  text-align: center;
+  top: 250px;
+  position: relative;
+  color: black;
+  width: 500px;
+  margin-right:auto;
+  padding-left: 5%;
+  font-size: 25px;
+  /*border: 3px solid #73AD21;*/
+}
+
+.EthicalA {
+  display: block;
+  margin-left: auto;
+  position: relative;
+  right: 80px;
+  bottom: 225px;
 }
